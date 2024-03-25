@@ -18,7 +18,7 @@ const LoginHomePage = () => {
 
   return (
     <>
-    <form onSubmit={Submitdata} style={{display:'flex',flexDirection:'column',alignItems:'center',padding:'10px',backgroundColor:"lightblue"}}>
+    <form onSubmit={Submitdata} style={{display:'flex',flexDirection:'column',alignItems:'center',padding:'10px',backgroundColor:'greenyellow'}}>
         <div >
         <label htmlFor='name' style={{fontWeight:"bold"}}>Customer Name :-</label> <br/>
         <input type='text' value={name} id="name"style={{outline:"none",width:"230px"}} onChange={(e)=>{setname(e.target.value)}}/> 
